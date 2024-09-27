@@ -1,0 +1,30 @@
+.form-container {
+	margin: 200px;
+  }
+  
+  .form-control {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+  }
+  
+  .btn-success {
+	background-color: #28a745;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	
+  }
+  
+  .btn-success:hover {
+	background-color: #218838;
+  }
+  
+  textarea.form-control {
+	resize: vertical;
+  }
+  

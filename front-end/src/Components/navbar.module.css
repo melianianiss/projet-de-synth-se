@@ -1,0 +1,85 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 20px;
+  }
+  
+  .nav_logo {
+    margin-right: 20px;
+  }
+  
+  .img_logo {
+    width: 90px; 
+    height: auto;
+  }
+  
+  .nav_links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .link {
+    margin-right: 20px;
+  }
+  
+  .link:last-child {
+    margin-right: 0;
+  }
+  
+  .link a {
+    position: relative;
+    padding: 0.5rem 1rem;
+    color: #334389;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  }
+  
+  .link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+    transform: translateX(-50%)
+  }
+  
+  .link a:hover::after {
+    width: 80%;
+  }
+  
+  .appointment_button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
